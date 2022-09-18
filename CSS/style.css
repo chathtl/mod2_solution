@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;  
+}
+
+h1 {
+	font-size: 27px;
+	font-family: Georgia serif;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Georgia sans-serif;
+	font-size: 16px;
+	position: relative;
+}
+
+.container { 
+	background-color: rgb(150, 150, 150);
+   	border: 3px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#menu1 {
+	background-color: #D59898;
+	}
+#menu2 {
+	background-color: #C14543;
+	}
+#menu3 {
+	background-color: #E5D198;
+	}
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+/*Layout: In the desktop view (992px and above)*/
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/** Tablet view */
+/*Layout: In the tablet view (between 768px and 991px, inclusively)*/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/*** Mobile phone view */
+/*Layout: In the mobile view (equal to or less than 767px)*/
+@media (max-width: 767px)  {
+  
+  .col-ht-12 {
+  	float: left;
+    width: 100%;
+  }
+}
+Footer
