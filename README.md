@@ -1,6 +1,6 @@
 Coursera course: HTML, CSS, and Javascript for Web Developers, Module 2 Coding Assignment, Solution.
 Below is link to access the assignment
-link: https:
+URL: https: https://chathtl.github.io/mod2_solution/
 
 Woo-hoo! You get to do some coding! Exciting!
 
